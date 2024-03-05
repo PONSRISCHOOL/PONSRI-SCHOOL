@@ -1,8 +1,21 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 #menu{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+#menu li{
+
+    list-style: none;
+    width: 120px;
+    height: 80px;
     text-decoration: none;
     background-color: cyan;
-    margin: 0;
+    margin: 5px;
+    line-height: 50px;
+    text-align: centerhi;
     float: left;
-    height: 20px;
-    width: 120%;
 }

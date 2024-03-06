@@ -41,5 +41,8 @@ body h1{
     border: 1px;
     border-radius: 25px;
 }
+#noticeboard{
+    background-color: azure;
+}
 
 

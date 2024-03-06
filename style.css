@@ -24,3 +24,10 @@ body{
     text-align: center;
     float: left;
 }
+#menu li a{
+    text-decoration: none;
+}
+#menu li:hover{
+    background-color: greenyellow;
+
+}

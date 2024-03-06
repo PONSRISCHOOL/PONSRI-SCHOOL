@@ -25,9 +25,11 @@ body{
     float: left;
 }
 #menu li a{
+    text-align: center;
     text-decoration: none;
 }
 #menu li:hover{
     background-color: greenyellow;
 
 }
+

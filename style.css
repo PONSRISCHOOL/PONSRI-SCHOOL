@@ -43,6 +43,7 @@ body h1{
 }
 #noticeboard{
     background-color: azure;
+    width: 120%;
 }
 .footer{
     background-color: whitesmoke;

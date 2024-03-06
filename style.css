@@ -35,5 +35,11 @@ body{
 body h1{
     text-align: center;
 }
+#icon1{
+    height: 25px;
+    width: 25px;
+    border: 1px;
+    border-radius: 25px;
+}
 
 

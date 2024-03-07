@@ -1,0 +1,24 @@
+#menu{
+    width: 127%;
+    height: 120px;
+    background-color: aqua;
+}
+#menu li{
+    
+    list-style: none;
+    width: 120px;
+    height: 80px;
+    text-decoration: none;
+    background-color: cyan;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+#menu li a{
+    text-size-adjust: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu li:hover{
+    background-color: greenyellow;

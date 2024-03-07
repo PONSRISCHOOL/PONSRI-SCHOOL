@@ -9,7 +9,7 @@ body{
 }
 #menu{
     width: 127%;
-    height: 80px;
+    height: 120px;
     background-color: aqua;
 }
 #menu li{
@@ -43,10 +43,12 @@ body h1{
 }
 #noticeboard{
     background-color: azure;
-    width: 120%;
+    -moz-text-decoration-color: darkorange;
+    text-align: center;
 }
 .footer{
     background-color: whitesmoke;
+    text-align: center;
 }
 
 

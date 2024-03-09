@@ -1,4 +1,6 @@
 body{
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-left: 0px;
     margin-right: 0px;

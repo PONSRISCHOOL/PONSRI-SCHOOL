@@ -1,5 +1,5 @@
 body{
-    background-size: covervc;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-left: 0px;
@@ -12,15 +12,13 @@ body{
     padding-top: 0px;
     width: 127%;
     height: 80px;
-    background-color: aqua;
 }
 #menu li{
     
     list-style: none;
-    width: 120px;
+    width: 120%;
     height: 80px;
     text-decoration: none;
-    background-color: cyan;
     margin: 0px;
     line-height: 50px;
     text-align: center;
@@ -59,6 +57,7 @@ body h1{
     font-size: medium;
 }
 #menu li a:hover{
+    
   
 }
 

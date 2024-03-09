@@ -1,7 +1,6 @@
 body{
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
@@ -25,7 +24,7 @@ body{
     float: left;
 }
 #menu li a{
-    text-size-adjust: 30px;
+    color: white;
     text-align: center;
     text-decoration: none;
 }

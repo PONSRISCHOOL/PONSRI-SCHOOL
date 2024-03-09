@@ -32,7 +32,8 @@ body{
     text-decoration: none;
 }
 #menu li:hover{
-    background-color: greenyellow;
+    border: 1px solid white;
+    border-radius: 5px;
 
 }
 body h1{
@@ -53,10 +54,13 @@ body h1{
 .footer{
     background-color: whitesmoke;
     text-align: center;
-}fa-duotone fa-school{
+}
+.fa-duotone fa-school{
     font-size: medium;
 }
-.
+#menu li a:hover{
+  
+}
 
 
 

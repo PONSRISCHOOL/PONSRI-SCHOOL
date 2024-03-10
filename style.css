@@ -1,4 +1,7 @@
 body{
+    width: 100%;
+    background-attachment: scroll;
+    background-width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
@@ -9,7 +12,7 @@ body{
     background-repeat: no-repeat;
     margin-top: 0px;
     padding-top: 0px;
-    width: 127%;
+    width: 100%;
     height: 80px;
 }
 #menu li{

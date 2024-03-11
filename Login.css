@@ -1,0 +1,19 @@
+body input,textarea{
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+body{
+  background-color: pink;
+}
+body input,textarea:hover{
+  background-color: lime;
+}
+.Form{
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  background-color: lightgreen;
+  border-width: 50%;
+}

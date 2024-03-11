@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Contact Form</title>
+
+<html>
+<head><link href="Login.css" rel="stylesheet">
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<title>Contact Us</title>
 </head>
-<body>
+<body><div class="Form">
+		<h1>
+				Contact Us
+		</h1>
+		    <form action="https://api.web3forms.com/submit" method="POST">
 
-<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="2233147a-3064-4046-b369-711700c07c0a">
 
-    <input type="hidden" name="access_key" value="2233147a-3064-4046-b369-711700c07c0a"><br><br>
-
-    <input type="text" name="name" required>
-    <input type="tel" name="mobile_number" required>
-<br><br>    <textarea name="message" required></textarea><br><br>
+    <input type="text" name="name" placeholder="Enter Your Name" required><br><br>
+    <input type="tel" name="Mobile Number" placeholder="Mobile number" required><br><br>
+    <textarea name="message" placeholder="Enter Details to Send to school" required></textarea><br><br>
     <button type="submit">Submit Form</button>
 
-</form>
-
+</form></div>
 </body>
 </html>

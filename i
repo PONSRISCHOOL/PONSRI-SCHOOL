@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<!-- The doctype declaration tells the browser the version of HTML that the document is written in. -->
+<html lang="en">
+<!-- The <html> element is the root element of an HTML page, and indicates that the page is written in HTML. -->
+<head>
+    <meta charset="UTF-8">
+    <!-- The <meta> element provides metadata about the HTML document, such as character encoding. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- This meta tag tells Internet Explorer to use the latest version of the rendering engine. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The viewport meta tag specifies how the website should be scaled on different devices. -->
+    <title>HTML form to Google Sheet</title>
+    <!-- The title element defines the title of the document, which is displayed in the browser's title bar. -->
+</head>
+ 
+<body>
+    <h1 id="msg"></h1>
+    <!-- The <h1> element defines a heading. The id attribute creates a unique identifier for the element. -->
+    <form action="https://script.google.com/macros/s/AKfycbw1dPMeK_6Ds-lJiJwaDXjABYb16AvriLmS-glNRHX_aeLLA7Q4KZNTxwxVja4AcIdvcQ/exec" method="post">
+        <input type="text" name="name" placeholder='Name'><br><br>
+        <!-- The <input> element is a form control element that allows the user to input data. -->
+        <input type="email" name="email" placeholder='Email'><br><br>
+        <input type="tel" name="phone" placeholder='Phone'><br><br>
+        <input type="submit" id="sub">
+        <!-- The <input type="submit"> element creates a submit button. The id attribute creates a unique identifier for the element. -->
+    </form>
+  
+
+</body>
+ 
+</html>
